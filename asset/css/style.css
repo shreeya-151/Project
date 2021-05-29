@@ -1,0 +1,139 @@
+*{
+	box-sizing:border-box;
+	/*so that the padding of the text doess not change the height of the background(the commands given in .cname)  */
+}
+
+.cname{
+	background-color:0B275C;
+	height:150px; /*since the height of the galaxy photo is 150px*/
+	text-align:center;
+	font-size:40px;
+	color:white; /*for the texts*/
+	padding-top:55px;
+	font-family: "Sofia", sans-serif;
+	 text-shadow: 3px 3px 3px black;
+	 box-shadow:3px 3px 3px 3px black;
+	
+}
+
+.menu{
+background-color:0B275C;
+height:50px;
+text-align:center;
+padding-top:16px;
+margin-top:10px;
+  font-family: "Sofia", sans-serif;
+  text-shadow: 1px 1px 1px white;
+  box-shadow:3px 3px 3px 3px black;
+}
+/*anchor tag <a> is the child of menu tag*/
+
+.menu a{ /*properties applied only to the child of the menu tag*/
+color:black;
+text-decoration:none;
+display:block; /*to make an entire grid containing the link text into a link grid*/
+
+
+}
+
+.o
+{
+	margin-top:86px;
+}
+
+.banner{
+	background-image:url('../photos/magic.jpg');
+	height:500px;
+	margin-top:10px;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	
+}
+
+.about{
+	background-color:0B275C;
+	height:50px;
+	text-align:center;
+	color:white;
+	padding-top:18px;
+	margin-top:10px;
+	box-shadow:0px 0px 5px #B2B1AF;
+	font-family: "Sofia", sans-serif;
+  text-shadow: 1px 1px 1px black;
+  box-shadow:3px 3px 3px 3px black;
+}
+
+p{
+	text-align:justify;
+}
+
+h2
+{
+	font-family: "Sofia", sans-serif;
+  text-shadow: 1px 1px 1px blue;
+}
+
+.section{
+	
+	background-color:0B275C;
+	height:120px;
+	text-align:center;
+	color:white;
+	padding-top:18px;
+	margin-top:5px;
+	box-shadow:0px 0px 5px #B2B1AF;
+	font-family: "Sofia", sans-serif;
+  text-shadow: 2px 2px 2px black;
+  box-shadow:3px 3px 3px 3px black;
+}
+
+/*Project Starts (3 pages-about us,contactus,product*/
+
+.abt{
+	background-color:black;
+	height:65px;
+	text-align:center;
+	color:white;
+	padding-top:15px;
+	margin-top:5px;
+	box-shadow:0px 0px 5px #B2B1AF;
+	font-size:30px;
+}
+
+h3
+{
+	font-family: 'Alex Brush', cursive;
+font-family: 'Dancing Script', cursive;
+	font-size:37px;
+	text-shadow: 2px 2px 2px black;
+	color:0B275C;
+	
+}
+.ba{
+	color:white;
+	font-family: 'Alex Brush', cursive;
+font-family: 'Dancing Script', cursive;
+	font-size:37px;
+	text-shadow: 2px 2px 2px black;
+}
+
+h4{
+	display: block;
+   background-color:silver;
+  text-shadow: 2px 2px 2px black;
+  box-shadow:3px 3px 3px 3px black;
+  color:0B275C;
+  font-size:30px;
+}
+table{
+	height:450px;
+	border-collapse:separate;
+   font-family: 'Alex Brush', cursive;
+font-family: 'Dancing Script', cursive;
+}
+	
+
+
+
+/*Project Ends*/
